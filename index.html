@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="task1.css">
+</head>
+
+
+
+<body>
+        <button class="fixed" id="btnUp">
+            <i class="fa-solid fa-angle-up up"></i>
+        </button>
+    <!------------------------------------------------------------- header ---------------------------------------------------------------->
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="text email">
+                        <i class="fa-solid fa-envelope header-envelop mx-1"></i>
+                        <span>Support@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="text phone text-end">
+                        <i class="fa-solid fa-phone header-phone mx-1"></i>
+                        <span>+201280675084</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------------- navbar --------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler nav-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">PRODUCT DETAIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">CART</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">CHECKOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">MY ACCOUNT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            MORE PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0 nav-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            MORE PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-------------------------------------------------------------- estore --------------------------------------------------------------->
+    <div class="store-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-12 estore">
+                    <Span
+                        style="color: #FF6F61;font-weight:500;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">E</Span>Store
+                </div>
+                <div class="search col-lg-6 col-md-5 col-12">
+                    <input type="search" placeholder=" Search">
+                </div>
+                <div class="logos col-lg-3 col-md-4 col-12col-12">
+                    <div class="heart">
+                        <i class="fa-solid fa-heart mx-1 heart-icon"></i> (0)
+                    </div>
+                    <div class="market">
+                        <i class="fa-solid fa-cart-shopping mx-1 market-icon"></i> (0)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------- boxes ------------------------------------------------------------------>
+    <div class="boxes">
+        <div class="container">
+            <div class="row ">
+                <div class="card col-lg-3 col-12 boxes1 mb-2">
+                    <div class="card-body mt-5 boxes-ul">
+                        <i class="fa-solid fa-house mx-3 house boxes-cion"></i><span style="font-size:14px;">Home</span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item boxes-ul">
+                            <i class="fa-solid fa-bag-shopping mx-3 bag boxes-cion"></i> <span
+                                style="font-size:14px;">BestSelling</span>
+                        </li>
+                        <li class="list-group-item boxes-ul">
+                            <i class="fa-solid fa-square-plus mx-3 square boxes-cion"></i> <span
+                                style="font-size:14px;">New Arrivals</span>
+                        </li>
+                        <li class="list-group-item boxes-ul">
+                            <i class="fa-solid fa-child-dress mx-3 child boxes-cion"></i> <span
+                                style="font-size:14px;">Fashion & Beauty</span>
+                        </li>
+                        <li class="list-group-item boxes-ul">
+                            <i class="fa-solid fa-shirt mx-3 tshirt boxes-cion"></i><span style="font-size:12px;">Men &
+                                Women Clothes</span>
+                        </li>
+                        <li class="list-group-item boxes-ul">
+                            <i class="fa-solid fa-mobile-screen-button mx-3 mobile boxes-cion"></i> <span
+                                style="font-size:13px;">Gadgets & Accessories</span>
+                        </li>
+                        <div class="card-body mb-3 boxes-ul">
+                            <i class="fa-solid fa-tv mx-3 tv boxes-cion"></i><span style="font-size:12px;">Electronics &
+                                Accessories</span>
+                        </div>
+                </div>
+                <div class="col-lg-5 col-12 bg2 mb-2">
+                    <div class="centered-div">
+                        <p class="text" style="font-size: 30px; line-height:50px;margin-bottom:15px;">
+                            some text goes here describes the image
+                        </p>
+                        <button><i class="fa-solid fa-cart-shopping mx-1 bag"></i> <span>Shop Now</span></button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 boxes-third">
+                    <img src="img/category-1.jpg" alt="">
+                    <img src="img/category-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------- pictures --------------------------------------------------------------->
+    <div class="pictures">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-12 mb-2 pic1">
+                    <img src="img/brand-1.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 mb-2 pic1">
+                    <img src="img/brand-2.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 mb-2 pic1">
+                    <img src="img/brand-3.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 mb-2 pic1">
+                    <img src="img/brand-4.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 mb-2 pic1">
+                    <img src="img/brand-5.png" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 mb-2 pic1">
+                    <img src="img/brand-6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------ divs --------------------------------------------------------------->
+    <div class="divs">
+        <div class="container divs">
+            <div class=" divs-inner">
+                <i class="fa-brands fa-cc-mastercard divs-icon"></i>
+                <p class="text">Secure Payment</p>
+                <p class="text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="divs-inner">
+                <i class="fa-solid fa-truck divs-icon"></i>
+                <p class="text">Worldwide Delivery</p>
+                <p class="text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="divs-inner">
+                <i class="fa-solid fa-arrows-rotate divs-icon"></i>
+                <p class="text">90 Days Return</p>
+                <p class="text text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <div class="divs-inner">
+                <i class="fa-solid fa-comments divs-icon"></i>
+                <p class="text">24/7 Support</p>
+                <p class="text text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------------------------------- fashion ------------------------------------------------------------->
+    <div class="fashion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-2 fashion1">
+                    <img src="img/category-3.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-2 fashion2">
+                    <img src="img/category-4.jpg" alt="">
+                    <img src="img/category-5.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-2 fashion3">
+                    <img src="img/category-6.jpg" alt="">
+                    <img src="img/category-7.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12 mb-2 fashion4">
+                    <img src="img/category-8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------------------------------- inquires ------------------------------------------------------------>
+    <div class="inquires">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-6 col-sm-10 col-12 mb-2  call">
+                    Call us for queires
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7 col-12 number">
+                    +012-806-75084
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------------------------------- features ------------------------------------------------------------>
+    <div class="features">
+        <div class="container features-container">
+            <div class="row">
+                <div class="col-lg-10 col-md-8 col-12 features-left">
+                    Featured Product
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 features-right">
+                    <i class="fa-solid fa-angle-left mx-1 features-icon features-icon1"></i>
+                    <i class="fa-solid fa-chevron-right mx-1 features-icon features-icon2"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------------------- collection ----------------------------------------------------------->
+    <div class="collection">
+        <div class="collection-inner">
+            <p style="text-align: center;">Product Name</p>
+            <p style="text-align: center;">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+            </p>
+            <img src="img/product-2.jpg" alt="">
+            <span style="float: left;padding:5px 10px;font-size: 20px;">$99</span>
+            <span class="right-span" style="float:right;"><i class="fa-solid fa-cart-shopping mx-1"></i>Buy Now</span>
+        </div>
+        <div class="collection-inner">
+            <p style="text-align: center;">Product Name</p>
+            <p style="text-align: center;">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+            </p>
+            <img src="img/product-3.jpg" alt="">
+            <span style="float: left;padding: 5px 10px;font-size: 20px;">$99</span>
+            <span class="right-span" style="float: right;"><i class="fa-solid fa-cart-shopping mx-1"></i>Buy Now</span>
+        </div>
+        <div class="collection-inner">
+            <p style="text-align: center;">Product Name</p>
+            <p style="text-align: center;">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+            </p>
+            <img src="img/product-4.jpg" alt="">
+            <span style="float:left;padding:5px 10px;font-size: 20px;">$99</span>
+            <span class="right-span" style="float: right;"><i class="fa-solid fa-cart-shopping mx-1"></i>Buy Now</span>
+        </div>
+        <div class="collection-inner">
+            <p style="text-align: center;">Product Name</p>
+            <p style="text-align: center;">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+            </p>
+            <img src="img/product-5.jpg" alt="">
+            <span style="float: left;padding: 5px 10px;font-size: 20px;">$99</span>
+            <span class="right-span" style="float: right;"><i class="fa-solid fa-cart-shopping mx-1"></i>Buy Now</span>
+        </div>
+    </div>
+    <!----------------------------------------------------------------- subscribe ----------------------------------------------------------->
+    <div class="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-6 col-sm-12 col-12 mb-2  sub">
+                    subscribe Our Newsletter
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-12 col-12 sub-email">
+                    <input type="search" placeholder=" Your Email Here"><button>Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------ recent --------------------------------------------------------------->
+    <div class="features">
+        <div class="container features-container">
+            <div class="row">
+                <div class="col-lg-10 col-md-8 col-12 features-left">
+                    Recent Products
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 features-right">
+                    <i class="fa-solid fa-angle-left mx-1 features-icon features-icon1"></i>
+                    <i class="fa-solid fa-chevron-right mx-1 features-icon features-icon2"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------------------- collection ----------------------------------------------------------->
+    <div class="collection">
+        <div class="collection-inner">
+            <p style="text-align: center;">Product Name</p>
+            <p style="text-align: center;">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+            </p>
+            <img src="img/product-8.jpg" alt="">
+            <span style="float: left;padding:5px 10px;font-size: 20px;">$99</span>
+            <span class="right-span" style="float:right;"><i class="fa-solid fa-cart-shopping mx-1"></i>Buy Now</span>
+        </div>
+        <div class="collection-inner">
+            <p style="text-align: center;">Product Name</p>
+            <p style="text-align: center;">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+            </p>
+            <img src="img/product-9.jpg" alt="">
+            <span style="float: left;padding: 5px 10px;font-size: 20px;">$99</span>
+            <span class="right-span" style="float: right;"><i class="fa-solid fa-cart-shopping mx-1"></i>Buy Now</span>
+        </div>
+        <div class="collection-inner">
+            <p style="text-align: center;">Product Name</p>
+            <p style="text-align: center;">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+            </p>
+            <img src="img/product-10.jpg" alt="">
+            <span style="float:left;padding:5px 10px;font-size: 20px;">$99</span>
+            <span class="right-span" style="float: right;"><i class="fa-solid fa-cart-shopping mx-1"></i>Buy Now</span>
+        </div>
+        <div class="collection-inner">
+            <p style="text-align: center;">Product Name</p>
+            <p style="text-align: center;">
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+                <i class="fa-solid fa-star star"></i>
+            </p>
+            <img src="img/product-6.jpg" alt="">
+            <span style="float: left;padding: 5px 10px;font-size: 20px;">$99</span>
+            <span class="right-span" style="float: right;"><i class="fa-solid fa-cart-shopping mx-1"></i>Buy Now</span>
+        </div>
+    </div>
+    <!------------------------------------------------------------------ models ------------------------------------------------------------->
+    <div class="models">
+        <div class="card mb-3 models-inner" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img style="height:100%;" src="img/review-1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="card-title">Customer Name</h4>
+                        <p class="card-text text-muted">Profession</p>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <div class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptas aperiam
+                            fugiat quidem accusantium.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 models-inner" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img style="height:100%;" src="img/review-2.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="card-title">Customer Name</h4>
+                        <p class="card-text text-muted">Profession</p>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <i class="fa-solid fa-star star"></i>
+                        <div class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptas aperiam
+                            fugiat quidem accusantium.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------------------------  footer -------------------------------------------------------------->
+    <div class="footer">
+        <div class="footer-inner">
+            <div class="card card-inner" style="width: 18rem;">
+                <div class="card-body">
+                    <h2 style="word-spacing:4px;letter-spacing:2px" class="card-title mb-3">Get In Touch</h2>
+                    <p class="card-text"><i class="fa-solid fa-location-pin"></i> 123 E Store, Los Angelos, USA</p>
+                    <p class="card-text"><i class="fa-solid fa-envelope"></i> email@example.com</p>
+                    <p class="card-text"><i class="fa-solid fa-phone header-phone mx-1"></i>+201280675084</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-inner">
+            <div class="card card-inner" style="width: 18rem;">
+                <div class="card-body">
+                    <h2 style="word-spacing:4px;letter-spacing:2px" class="card-title mb-5">Follow Us</h2>
+                    <i class="fa-brands fa-twitter social-icon"></i>
+                    <i class="fa-brands fa-facebook social-icon"></i>
+                    <i class="fa-brands fa-linkedin social-icon"></i>
+                    <i class="fa-brands fa-instagram social-icon"></i>
+                    <i class="fa-brands fa-youtube social-icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-inner">
+            <div class="card card-inner" style="width: 18rem;">
+                <div class="card-body">
+                    <h2 style="word-spacing:4px;letter-spacing:2px" class="card-title mb-3">Campany Info</h2>
+                    <p class="card-text footer-text">
+                        <i style="font-size: 12px;" class="fa-solid fa-chevron-right"></i>
+                        <span class="text-muted">About Us</span>
+                    </p>
+                    <p class="card-text footer-text">
+                        <i style="font-size: 12px;" class="fa-solid fa-chevron-right"></i>
+                        <span class="text-muted">Privacy Policy</span>
+                    </p>
+                    <p class="card-text footer-text">
+                        <i style="font-size: 12px;" class="fa-solid fa-chevron-right"></i>
+                        <span class="text-muted">Terms & conditions</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-inner">
+            <div class="card card-inner" style="width: 18rem;">
+                <div class="card-body">
+                    <h2 style="word-spacing:4px;letter-spacing:2px" class="card-title mb-3">Purchase Info</h2>
+                    <p class="card-text footer-text">
+                        <i style="font-size: 12px;" class="fa-solid fa-chevron-right"></i>
+                        <span class="text-muted">Payment Policy</span>
+                    </p>
+                    <p class="card-text footer-text">
+                        <i style="font-size: 12px;" class="fa-solid fa-chevron-right"></i>
+                        <span class="text-muted">Shipping Policy</span>
+                    </p>
+                    <p class="card-text footer-text">
+                        <i style="font-size: 12px;" class="fa-solid fa-chevron-right"></i>
+                        <span class="text-muted">Return Policy</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------------------------------------- accept ---------------------------------------------------------->
+    <div class="accept">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6  mb-3" style="font-size:25px; font-weight:bolder;text-align: center;">
+                    We Accept :
+                    <img style="width:30px;height:15px" src="img/download.png" alt="">
+                    <img style="width:30px;height:20px" src="img/kisspng-mastercard-logo-visa-credit-card-portable-network-mastercard-plus-datacenter-trkiyeampaposde-5bfe50c6987830.6480665815433934786245.jpg" alt="">
+                    <img style="width:30px;height:20px" src="img/pp_cc_mark_111x69.jpg" alt="">
+                    <img style="width:30px;height:20px" src="img/VISA_Electron-logo-3B6D415881-seeklogo.com.png" alt="">
+                </div>
+                <div class="col-lg-5" style="font-size:25px; font-weight:bolder;text-align: center;">
+                    Secured By :
+                    <img style="width:70px;height:50px" src="img/secured1.jpg" alt="">
+                    <img style="width:70px;height:50px" src="img/secured2.png" alt="">
+                    <img style="width:70px;height:30px" src="img/secured3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------------------------------------- copyright -------------------------------------------------------->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 mb-3">
+                    copyright <i class="fa-solid fa-copyright"></i>
+                    <span style="color:#FF6F61;">HTML Codex.</span>
+                    All Rights Reserved
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    Template By
+                    <span style="color:#FF6F61;">HTML Codex.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- js -->
+    <script>
+    let btn = document.getElementById("btnUp");
+    btn.onclick = function () {
+    window.scrollTo({
+        left:0,
+        top:0,
+        behavior:"smooth"
+    });
+    };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+</html>
