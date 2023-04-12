@@ -35,7 +35,9 @@
   padding: 10px;
   color: #ff6f61;
 }
-
+.header span{
+    cursor: pointer;
+}
 /*----------------------------------------------- nav-------------------------------- */
 .navbar-expand-lg {
   background-color: #ff6f61;
